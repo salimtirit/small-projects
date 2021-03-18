@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        This is the page
+    </title>
+    <style>
+        table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+    </style>
+    
+    <script>
+        function event11(situation) {
+            alert(situation);
+        }
+    </script>
+</head>
+
+<body onunload="event11('Sayfa Yüklenemedi')">
+    <form action="https://www.google.com.tr" method="GET">
+        <label>
+            Kullanıcı Adı
+        </label>
+        <br>
+        <input name="username" type="text" placeholder="Kullanıcı Adınızı Giriniz" autofocus required>
+        <br>
+        <label for="12">Şifre</label>
+        <br>
+        <input name="password" id="12" type="password" placeholder="Şifrenizi Giriniz" required>
+        <input type="submit" value="Giriş Yap">
+
+    </form>
+
+    <h1 style="color:teal;text-align: center;" onclick="event11('hello again my friend')">HELLO</h1>
+    <p style="font-family: 'Times New Roman', Times, serif;">
+        this is a paragraph
+    </p>
+
+    <h3 oncopy="event11('you have copied this')">this is the third</h3>
+
+    <h6 onclick="alert('this is an alert for h6')">
+        this is the smallest header.
+    </h6>
+
+    <a href="https://www.google.com.tr"><img
+            src="https://www.google.com/logos/doodles/2020/googles-22nd-birthday-6753651837108550-law.gif"
+            title="Google link" width="100%" /></a>
+    <hr>
+
+    <img src="https://mk0cfstest0sltokv8ce.kinstacdn.com/wp-content/uploads/2019/11/1970-Boss-302-americanmusclecarmuseum_com-800.jpg"
+        width="100%" alt="car" usemap="#workmap" />
+
+
+    <map name="workmap">
+        <area shape="circle" coords="750,700,100" onclick="myfunction()">
+    </map>
+
+    <script>
+        function myfunction(){
+            alert("Why did you click on my cars tire???");
+        }
+    </script>
+    <!--this is the right way to write a command and this is niceee:):)-->
+    <command this is a command which will not be seen in page />
+    <hr style="width: 100mm;" />
+    <button> friends </button>
+
+    <pre style="color: blue; background-color: aquamarine;  font-family: Arial, Helvetica, sans-serif;">this is goning to be seen as i wrote
+    if i tab to another line it will show it too
+        loves
+    </pre>
+
+    <ol type="I" start="1555">
+        <li>
+            first
+        </li>
+        <ul style="list-style-type: square;">
+            <li>first
+            </li>
+            <br>
+            <li>
+                second
+            </li>
+
+            <li>
+                third
+            </li>
+        </ul>
+        <li>
+            second
+        </li>
+        <li>
+            third
+        </li>
+    </ol>
+
+    <table style="color:white ;background-color:tomato; width: 50%;">
+        <tr>
+            <th>first header</th>
+            <th>second header</th>
+            <th>third header</th>
+        </tr>
+        <tr>
+            <td>first data</td>
+            <td>second data</td>
+            <td>third data</td>
+        </tr>
+        <tr>
+
+        </tr>
+    </table>
+
+    <br>
+
+    <b>
+        this is a bald writing
+    </b>
+
+    <br>
+
+    <strong>this is a strong writing</strong>
+    <br>
+    <i>this is a italic writing</i>
+    <br>
+    <em>this is emphesis writing</em>
+    <br>
+    <mark>this is marked</mark>
+    <br>
+    <del>this is deleteds</del><br>
+    <ins>this is inserted</ins><br>
+    <p>in this writing we have <sup>superscript</sup> and <sub>subscript</sub></p>
+    <br><small>small writing</small><br>
+
+    <div>this is a division element.</div>
+
+    <span>this is an important one</span>
+
+</body>
+
+</html>

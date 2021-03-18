@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>I study JS</title>
+    <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML = "My first JS in head"
+        }
+    </script>
+</head>
+
+
+<body>
+
+
+    <p id="demo">
+        JavaScript can change HTML content.
+    </p>
+    <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+    <script>
+        console.log("buton oluşturuldu")
+    </script>
+    <button type="button" onclick="document.getElementById('demo').style.fontSize='35px'">To change the font size click me!</button>
+    <button type="button" onclick="myFunction()">Try This</button>
+    <br>
+    <div>
+        <img id="myImage" src="https://lh3.googleusercontent.com/proxy/aYcqL37IyMj281UTOX0iEuhxvyO_kj9dzk4KkdqV140amLW2GbNDXdNSBov10X-BVftYQEiKc5n6GJz_6uSFmJT_nwKy0q7lf37AG5K2qjEkNMkXNGv_" style="width: 50%;">
+    </div>
+
+    <div>
+        <button onclick="document.getElementById('myImage').src='https://blog.obilet.com/wp-content/uploads/2018/09/G%C3%BCney-Kamp%C3%BCs.jpg'">GO TO ÇİMLER</button>
+    </div>
+    <button id="buttonOne" type="button" onclick="document.getElementById('myImage').style.display='none';"> Hide Image </button>
+
+    <button type="button" onclick="document.getElementById('myImage').style.display='block'"> Show Image </button>
+
+    <br>
+
+    <p id="12">Time is here.</p>
+
+    <button onclick="document.getElementById('12').innerHTML=Date()">The time is?</button>
+
+    <br>
+
+    <script src="js.js"></script>
+
+</body>
+
+</html>
